@@ -1,29 +1,17 @@
-# README #
+# PrefEdit Companion #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+PrefEdit Companion is a companion app for PrefEdit. PrefEdit uses this app to perform Shared Preference related operations. There is detailed F.A.Q within the app. You can find app downloads in the downloads section under tags.
 
-### What is this repository for? ###
+### Version history ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+| Version Name | Version Code | Release date |
+|--------------|--------------|--------------|
+| 1.0 | 1 | 2021-06-14 |
 
-### How do I get set up? ###
+### Compatibility with PrefEdit ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+PrefEdit will expect the following companion app version so that it can work. Idea is to have it backward compatible (new versions of PrefEdit should be able to work with old versions of companion, as PrefEdit will be the one that will be updated most frequently).
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+| PrefEdit app version code | Minimum required companion app version code | Notes |
+|---------------------------|---------------------------------------------|-------|
+| 46 | 1 | Initial support for companion is introduced in version code `46` of PrefEdit. PrefEdit versions below 46 will not be able to work with the companion. |
