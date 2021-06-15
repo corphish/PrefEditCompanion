@@ -2,6 +2,10 @@
 
 PrefEdit Companion is a companion app for PrefEdit. PrefEdit uses this app to perform Shared Preference related operations. There is detailed F.A.Q within the app. You can find app downloads in the downloads section under tags.
 
+### Package name
+
+Package name is `com.booo.prefs`. This is an official product from the developers of PrefEdit, for PrefEdit.
+
 ### Version history ###
 
 | Version Name | Version Code | Release date |
